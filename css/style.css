@@ -9,9 +9,9 @@ rgb(245, 245, 245) = #f5f5f5 (White Smoke)
 rgb(220, 224, 224) = #dce0e0 (Light Grey)
 rgb(144, 149, 151) = #909597 (Grey)
 rgb(102, 106, 108) = #666a6c (Dark Grey)
-rgb(86, 90, 92) = #565a5c (Charcoal)
-rgb(255, 89, 95) = #ff595f (Pink)
-rgb(227, 25, 29) = #e3191d (Red)
+rgb(86, 90, 92)    = #565a5c (Charcoal)
+rgb(255, 89, 95)   = #ff595f (Pink)
+rgb(227, 25, 29)   = #e3191d (Red)
 
 */
 
@@ -27,7 +27,7 @@ body {
 	margin: 0;
 	background: rgb(245, 245, 245);
 	font-family: 'Open Sans', arial, sans-serif;
-	font-size: 0.875rem;
+	font-size: 0.875rem; /* 14px */
 	color: rgb(86, 90, 92);
 }
 
@@ -64,7 +64,7 @@ strong {
 /* Heading styles */
 
 h1 {
-	font-size: 22px;
+	font-size: 1.375rem; /* 22px */
 	color: #666a6c;
 }
 
@@ -87,25 +87,25 @@ header .logo {
 .info {
 	background: white;
 	text-align: center;
-	padding: 25px;
+	padding: 1.5625rem; /* 25px */
 }
 
 .info h1 {
-	margin-bottom: 5px;
+	margin-bottom: .3125rem; /* 5px */
 }
 
 .info .profile {
-	margin-bottom: 24px;
+	margin-bottom: 1.5rem; /* 24px */
 }
 
 .info .owner-details img {
 	border-radius: 50%;
-	margin-bottom: 6px;
+	margin-bottom: .375rem; /* 6px */
 }
 
 .info h2.relationship, .info h2.name {
 	color: #909597;
-	margin-bottom: 3px;
+	margin-bottom: .1875rem; /* 3px */
 }
 
 .info h2.name {
@@ -113,7 +113,7 @@ header .logo {
 }
 
 .info p.location {
-	margin-bottom: 20px;
+	margin-bottom: 1.25rem; /* 20px */
 }
 
 .info .icon {
@@ -123,17 +123,17 @@ header .logo {
 
 .info .icon img {
 	height: 30px;
-	margin-bottom: 3px;
+	margin-bottom: .1875rem; /* 3px */
 }
 
 .info .booking h2 {
 	font-weight: 600;
-	font-size: 22px;
-	margin-bottom: 13px;
+	font-size: 1.375rem; /* 22px */
+	margin-bottom: .8125rem; /* 13px */
 }
 
 .info h2.price .time {
-	font-size: 16px;
+	font-size: 1rem; /* 16px */
 }
 
 @media only screen and (min-width: 1060px) {
@@ -153,11 +153,11 @@ header .logo {
 	}
 
 	.info h1 {
-		margin-bottom: 11px;
+		margin-bottom: .6875rem; /* 11px */
 	}
 
 	.info h2 {
-		margin-bottom: 3px;
+		margin-bottom: .1875rem; /* 3px */
 	}
 
 	.info .profile {
@@ -185,6 +185,6 @@ header .logo {
 
 	.info .pet-details .icon img {
 		display: block;
-		margin: 3px auto 3px;
+		margin: .1875rem auto; /* 3px */
 	}
 }
