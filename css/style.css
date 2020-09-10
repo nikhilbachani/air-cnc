@@ -49,3 +49,17 @@ strong {
 	width: 95%;
 	margin: 0 auto;
 }
+
+/* Header and .hero styles */
+
+header {
+	background: white;
+}
+
+header .logo {
+	border-right: 1px solid #dce0e0;
+}
+
+.hero img {
+	width: 100%;
+}
