@@ -88,6 +88,7 @@ header .logo {
 	background: white;
 	text-align: center;
 	padding: 1.5625rem; /* 25px */
+	border-bottom: 1px solid #dce0e0;
 }
 
 .info h1 {
@@ -134,6 +135,63 @@ header .logo {
 
 .info h2.price .time {
 	font-size: 1rem; /* 16px */
+}
+
+/* .details styles */
+
+.details {
+	border-bottom: 1px solid #dce0e0;
+	padding: 32px;
+	margin-bottom: 40px;
+}
+
+.details .about {
+	text-align: center;
+}
+
+.details .about h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 32px;
+}
+
+.details .about p {
+	font-size: 13px;
+	line-height: 22px;
+	color: #565a5c;
+	text-align: justify;
+	margin-bottom: 24px;
+}
+
+.details h4 {
+	color: #909597;
+	margin: 16px 0;
+}
+
+.details .contact {
+	margin-bottom: 24px;
+}
+
+.details .care, .details .games {
+	padding-bottom: 16px;
+}
+
+.details .about, .details .care, .details .games {
+	border-bottom: 1px solid #dce0e0;
+}
+
+.details .care p {
+	padding: 3px 0;
+}
+
+.details .games h5 {
+	display: inline-block;
+	padding: 4px;
+}
+
+.details .photos img {
+	width: 100%;
+	margin-top: 16px;
 }
 
 @media only screen and (min-width: 1060px) {
@@ -186,5 +244,28 @@ header .logo {
 	.info .pet-details .icon img {
 		display: block;
 		margin: .1875rem auto; /* 3px */
+	}
+
+	.details {
+		width: 730px;
+		margin-left: 70px;
+	}
+
+	.details .container {
+		width: 95%;
+	}
+
+	.details .contact {
+		text-align: left;
+	}
+
+	.details h4, .details .favorites, .details .times, .details .game-group {
+		width: 33.3%;
+		padding-top: 16px;
+		margin-top: 0;
+	}
+
+	.details .photos img {
+		width: 32.9%;
 	}
 }
