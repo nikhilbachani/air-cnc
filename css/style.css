@@ -140,13 +140,13 @@ header .logo {
 /* .details styles */
 
 .details {
-	padding: 20px;
+	padding: 1.25rem; /* 20px */
 }
 
 .details .about {
 	text-align: center;
-	line-height: 22px;
-	font-size: 13px;
+	line-height: 1.375rem; /* 22px */
+	font-size: .8125rem;  /* 13px */
 }
 
 .details .about p {
@@ -155,33 +155,33 @@ header .logo {
 
 .details h3 {
 	font-weight: bold;
-	font-size: 16px;
-	margin: 8px 0 24px 0;
+	font-size: 1rem; /* 16px */
+	margin: .5rem 0 1.5rem 0; /* 8px 24px */
 }
 
 .details h4 {
 	color: #909597;
-	margin-bottom: 10px;
+	margin-bottom: .625rem; /* 10px */
 }
 
 .details li {
-	margin-bottom: 5px;
+	margin-bottom: .3125rem; /* 5px */
 }
 
 .details section {
 	border-bottom: 1px solid rgb(220, 224, 224);
-	padding: 16px 0 24px 0;
+	padding: 1.5rem 0; /* 24px */
 }
 
 .details .about a.contact {
 	display: block;
-	margin-top: 16px;
+	margin: 0.9375rem 0; /* 15px */
 }
 
 .details .photos img {
 	width: 100%;
 	display: block;
-	margin-bottom: 8px;
+	margin-bottom: .5rem; /* 8px */
 }
 
 @media only screen and (min-width: 1060px) {
@@ -254,7 +254,7 @@ header .logo {
 	}
 
 	.details .games li img {
-		padding-right: 8px;
+		padding-right: .5rem; /* 8px */
 	}
 	
 	/* .photos styles */
@@ -266,6 +266,6 @@ header .logo {
 	.details .photos img {
 		display: inline;
 		width: 200px;
-		margin: 0 13px;
+		margin: 0 .85rem; /* 13px */
 	}
 }
