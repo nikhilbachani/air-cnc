@@ -133,65 +133,55 @@ header .logo {
 	margin-bottom: .8125rem; /* 13px */
 }
 
-.info h2.price .time {
+.info h2 .time {
 	font-size: 1rem; /* 16px */
 }
 
 /* .details styles */
 
 .details {
-	border-bottom: 1px solid #dce0e0;
-	padding: 32px;
-	margin-bottom: 40px;
+	padding: 20px;
 }
 
 .details .about {
 	text-align: center;
-}
-
-.details .about h3 {
-	font-weight: bold;
-	font-size: 16px;
-	margin-bottom: 32px;
+	line-height: 22px;
+	font-size: 13px;
 }
 
 .details .about p {
-	font-size: 13px;
-	line-height: 22px;
-	color: #565a5c;
 	text-align: justify;
-	margin-bottom: 24px;
+}
+
+.details h3 {
+	font-weight: bold;
+	font-size: 16px;
+	margin: 8px 0 24px 0;
 }
 
 .details h4 {
 	color: #909597;
-	margin: 16px 0;
+	margin-bottom: 10px;
 }
 
-.details .contact {
-	margin-bottom: 24px;
+.details li {
+	margin-bottom: 5px;
 }
 
-.details .care, .details .games {
-	padding-bottom: 16px;
+.details section {
+	border-bottom: 1px solid rgb(220, 224, 224);
+	padding: 16px 0 24px 0;
 }
 
-.details .about, .details .care, .details .games {
-	border-bottom: 1px solid #dce0e0;
-}
-
-.details .care p {
-	padding: 3px 0;
-}
-
-.details .games h5 {
-	display: inline-block;
-	padding: 4px;
+.details .about a.contact {
+	display: block;
+	margin-top: 16px;
 }
 
 .details .photos img {
 	width: 100%;
-	margin-top: 16px;
+	display: block;
+	margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 1060px) {
@@ -210,6 +200,8 @@ header .logo {
 		margin: auto;
 	}
 
+	/* .info styles */
+
 	.info h1 {
 		margin-bottom: .6875rem; /* 11px */
 	}
@@ -225,6 +217,7 @@ header .logo {
 
 	.info .booking {
 		width: 380px;
+		margin-top: 16px;
 	}
 
 	.info .owner-details {
@@ -246,26 +239,33 @@ header .logo {
 		margin: .1875rem auto; /* 3px */
 	}
 
-	.details {
-		width: 730px;
-		margin-left: 70px;
-	}
+	/* .details styles */
 
 	.details .container {
-		width: 95%;
+		width: 690px;
 	}
 
-	.details .contact {
+	.details .about {
 		text-align: left;
 	}
 
-	.details h4, .details .favorites, .details .times, .details .game-group {
+	.details .column {
 		width: 33.3%;
-		padding-top: 16px;
-		margin-top: 0;
+	}
+
+	.details .games li img {
+		padding-right: 8px;
+	}
+	
+	/* .photos styles */
+
+	.details .photos {
+		text-align: center;
 	}
 
 	.details .photos img {
-		width: 32.9%;
+		display: inline;
+		width: 200px;
+		margin: 0 13px;
 	}
 }
